@@ -25,6 +25,7 @@ const dialectNameMap: Record<keyof typeof allDialects | 'tsql', keyof typeof all
   tsql: 'transactsql', // alias for transactsq
   singlestoredb: 'singlestoredb',
   snowflake: 'snowflake',
+  clickzetta: 'clickzetta',
 };
 
 export const supportedDialects = Object.keys(dialectNameMap);
